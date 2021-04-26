@@ -10,4 +10,4 @@ const checkSize = (req, res, next) => {
     next();
 }
 
-module.exports = { log, checkSize }
+export default { log, checkSize }
