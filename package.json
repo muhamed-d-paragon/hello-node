@@ -4,18 +4,28 @@
   "description": "My First Node JS Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "dev": "nodemon",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muhamed-d-paragon/nodeServer.git"
   },
-  "keywords": ["node", "server"],
+  "keywords": [
+    "node",
+    "server"
+  ],
   "author": "Muhamed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/muhamed-d-paragon/nodeServer/issues"
   },
-  "homepage": "https://github.com/muhamed-d-paragon/nodeServer#readme"
+  "homepage": "https://github.com/muhamed-d-paragon/nodeServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
